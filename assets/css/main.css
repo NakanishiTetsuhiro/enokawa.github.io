@@ -95,7 +95,7 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #ff7878
+	background: #ff7878;
 }
 
 .navbar-inverse .navbar-brand {
@@ -250,6 +250,7 @@ a:after {
 
 .w {
 	padding-top: 35px;
+	padding-bottom: 35px;
 }
 
 .w h4 {
