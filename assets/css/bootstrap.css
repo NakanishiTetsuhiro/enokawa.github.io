@@ -3454,6 +3454,7 @@ input[type="button"].btn-block {
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
           box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
   background-clip: padding-box;
+  width: 100%;
 }
 
 .dropdown-menu.pull-right {
@@ -7056,4 +7057,39 @@ td.visible-print {
   td.hidden-print {
     display: none !important;
   }
+}
+
+#accordion h4 {
+color: #999999;
+font-size:16px;
+ font-weight: 700;
+}
+
+#accordion a:hover{
+
+    color: blue;
+
+}
+
+#accordion {
+    margin:10px 10px 10px 10px;
+
+}
+
+#accordion h3 {
+    color: #1b3db0}
+
+#sbox {
+
+width: 99%;
+margin-left: 3px;
+padding-left: 5px;
+margin: 0 auto;
+margin-top: 15px;
+margin-bottom: 10px;
+background:#ffffff;
+-webkit-box-shadow: 3px 3px 5px 0 #aaa;
+-moz-box-shadow: 3px 3px 5px 0 #aaa;
+box-shadow: 3px 3px 5px 0 #aaa;
+border:#eeeeee solid 1px;
 }
