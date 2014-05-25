@@ -810,6 +810,8 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .row:before,
@@ -4115,6 +4117,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-tabs.nav-justified {
   width: 100%;
   border-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .nav-tabs.nav-justified > li {
