@@ -1,77 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title>Custom Navbar Template with Logo for Bootstrap 3</title>
+    <title>産業情報学科</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
 
-    <!-- Add custom CSS here -->
-    <link href="css/logo-nav.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">
-                    <img src="images/sanjo.png" alt="logo" height="55" width="300">
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">産業情報学科とは</a>
-                    </li>
-                    <li>
-                        <a href="#">教員･ゼミ紹介</a>
-                    </li>
-                    <li>
-                        <a href="#">在学生のコメント</a>
-                    </li>
-		    <li>
-			<a href="#">卒業後の進路</a>
-		    </li>
-		    <li>
-                        <a href="#">Ｑ＆Ａ</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
-
-<img src="images/PC02.jpeg" width="100%">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
 
 
-    <div id="footer">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
-        <p class="text-muted">© 2014 Sanjo</p>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">logo</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="index.html">HOME</a></li>
+            <li><a href="about.html">産業情報学科とは</a></li>
+            <li><a href="services.html">教員･ゼミ紹介</a></li>
+            <li><a href="works.html">在学生のコメント</a></li>
+            <li><a href="works.html">卒業後の進路</a></li>
+            <li><a href="works.html">Ｑ＆Ａ</a></li>
+            <li><a data-toggle="modal" data-target="#myModal" href="#myModal"><i class="fa fa-envelope-o"></i></a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
+        <div id="headerwrap">
+                <div class="container">
+                        <div class="row centered">
+                                <div class="col-lg-8 col-lg-offset-2">
+                                   <h1>情報の産業化と</br>産業の情報化を</br>担う人材を目指す</h1>
+                                </div>
+                        </div><!-- row -->
+                </div><!-- container -->
+        </div><!-- headerwrap -->
 
-</body>
+        <!-- FOOTER -->
+        <div id="f">
+                <div class="container">
+                        <div class="row centered">
+                                <p>© 2014 Sanjo</p>
+                        </div><!-- row -->
+                </div><!-- container -->
+        </div><!-- Footer -->
 
+
+        <!-- MODAL FOR CONTACT -->
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+
+              </div>
+              <div class="modal-body">
+                        <div class="row centered">
+                                <p>お気軽にお問い合わせください。</p>
+                                <p>
+                                        沖縄国際大学<br/>
+                                                沖縄県宜野湾市宜野湾二丁目6番1号<br/>
+                                                098-892-1111<br/>
+                                                hi@okiu.ac.jp
+                                </p>
+                                <div id="mapwrap">
+                <iframe height="300" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.es/maps?t=m&amp;ie=UTF8&amp;ll=52.752693,22.791016&amp;spn=67.34552,156.972656&amp;z=2&amp;output=embed"></iframe>
+                                        </div>
+                        </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Save & Go</button>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
 </html>
